@@ -44,11 +44,11 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-03" title>
-                                            <img alt src="images/portfolio/judah.jpg" />
+                                            <img alt src="images/portfolio/newModals/feedback.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>Judah</h5>
-                                                    <p>Webdesign</p>
+                                                    <h5>Feedback app</h5>
+                                                    <p>Web Development</p>
                                                 </div>
                                             </div>
                                             <div className="link-icon"><i className="icon-plus" /></div>
@@ -101,14 +101,14 @@ export default class Portfolio extends Component {
                         </div>{/* modal-02 End */}
 
                         <div id="modal-03" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt />
+                            <img className="scale-with-grid" src="images/portfolio/newModals/garden.png" alt />
                             <div className="description-box">
-                                <h4>Judah</h4>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                <span className="categories"><i className="fa fa-tag" />Branding</span>
+                                <h4>Feedback app</h4>
+                                <p>A simple web-app that is build in React. This example demonstrate my capability with React, Axios, and Redux. While using the app, after submitting the form, to see the feedback go to: "https://redux-feedback-app.herokuapp.com/#/admin".(currently being hosted on Heroku, so it takes 30sec to load up) </p>
+                                <span className="categories"><i className="fa fa-tag" />Web Development</span>
                             </div>
                             <div className="link-box">
-                                <a href="http://www.behance.net">Details</a>
+                                <a href="https://redux-feedback-app.herokuapp.com/#/">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
                         </div>{/* modal-03 End */}
