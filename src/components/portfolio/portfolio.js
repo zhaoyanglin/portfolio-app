@@ -101,7 +101,7 @@ export default class Portfolio extends Component {
                         </div>{/* modal-02 End */}
 
                         <div id="modal-03" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/newModals/garden.png" alt />
+                            <img className="scale-with-grid" src="images/portfolio/newModals/feedback.png" alt />
                             <div className="description-box">
                                 <h4>Feedback app</h4>
                                 <p>A simple web-app that is build in React. This example demonstrate my capability with React, Axios, and Redux. While using the app, after submitting the form, to see the feedback go to: "https://redux-feedback-app.herokuapp.com/#/admin".(currently being hosted on Heroku, so it takes 30sec to load up) </p>
