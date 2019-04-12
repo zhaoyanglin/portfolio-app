@@ -64,7 +64,7 @@ export default class Portfolio extends Component {
                             <img className="scale-with-grid" src="images/portfolio/newModals/NBO.png" alt />
                             <div className="description-box">
                                 <h4>New Baller Order</h4>
-                                <p>This is a web app at the moment, in the future it will be a phone app. The main purpose of this app is to help basketball players to not be stranded or waste time while tyring to play a game of pick up basketball.(currently being hosted on Heroku, so it takes 30sec to load up)</p>
+                                <p>This is a web app at the moment, in the future it will be a phone app. The main purpose of this app is to help basketball players to not be stranded or waste time while tyring to play a game of pick up basketball. Tech used: Google-map API, React, Redux, jQuery, Css, Axios, Redux-Saga.(currently being hosted on Heroku, so it takes 30sec to load up)</p>
                                 <span className="categories"><i className="fa fa-tag" />modile app</span>
                             </div>
                             <div className="link-box">
