@@ -55,6 +55,21 @@ export default class Portfolio extends Component {
                                         </a>
                                     </div>
                                 </div> {/* item end */}
+                                {/* item4 */}
+                                <div className="columns portfolio-item">
+                                    <div className="item-wrap">
+                                        <a href="#modal-04" title>
+                                            <img alt src="images/portfolio/newModals/calculator.png" />
+                                            <div className="overlay">
+                                                <div className="portfolio-item-meta">
+                                                    <h5>Calculator app</h5>
+                                                    <p>Web Development</p>
+                                                </div>
+                                            </div>
+                                            <div className="link-icon"><i className="icon-plus" /></div>
+                                        </a>
+                                    </div>
+                                </div> {/* item end */}
 
                             </div> {/* portfolio-wrapper end */}
                         </div> {/* twelve columns end */}
@@ -95,6 +110,19 @@ export default class Portfolio extends Component {
                             </div>
                             <div className="link-box">
                                 <a href="https://redux-feedback-app.herokuapp.com/#/">Details</a>
+                                <a className="popup-modal-dismiss">Close</a>
+                            </div>
+                        </div>{/* modal-03 End */}
+
+                        <div id="modal-04" className="popup-modal mfp-hide">
+                            <img className="scale-with-grid" src="images/portfolio/newModals/calculator.png" alt />
+                            <div className="description-box">
+                                <h4>Calculator app</h4>
+                                <p>This Calculator App is build in React. Also it has a database that is build with postgreSQL.(currently being hosted on Heroku, so it takes 30sec to load up) </p>
+                                <span className="categories"><i className="fa fa-tag" />Web Development</span>
+                            </div>
+                            <div className="link-box">
+                                <a href="https://calculator-sz.herokuapp.com/">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
                         </div>{/* modal-03 End */}
