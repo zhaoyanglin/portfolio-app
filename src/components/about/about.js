@@ -11,7 +11,7 @@ export default class About extends Component {
                         </div>
                         <div className="nine columns main-col">
                             <h2>About Me</h2>
-                            <p>I am a full stack software engineer who loves solving problems, learning new things, and making sure everything I've done is precise and well-executed. During my free time I love watching movies and playing basketball and video games. I also enjoys the outdoors, hiking, sightseeing, and traveling. I am friendly, open-minded, love talking to people, and listening is one of my strong suits. I have a lot of experience with Javascript, React, PostgresSQL, AXIOS, Redux, Redux-Saga, jQuery, HTML, CSS, Node.js, GIT, and MongoDB. I also have introductory knowledge with Python, Material-UI, Bootstrap, JSON, and Java.
+                            <p>Hello, my name is Zhaoyang but I go by Zee. I am a full stack software engineer who loves solving problems, learning new things, and making sure everything I've done is precise and well-executed. During my free time I love watching movies and playing basketball and video games. I also enjoys the outdoors, hiking, sightseeing, and traveling. I am friendly, open-minded, love talking to people, and listening is one of my strong suits. 
                             </p>
                             <div className="row">
                                 <div className="columns contact-details">
