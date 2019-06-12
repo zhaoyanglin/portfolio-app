@@ -7,7 +7,7 @@ export default class About extends Component {
                 <section id="about">
                     <div className="row">
                         <div className="three columns">
-                            <img className="profile-pic" src="images/me.jpg" alt />
+                            <img className="profile-pic" src="images/me.jpg" alt="Zee's Profile Picture" />
                         </div>
                         <div className="nine columns main-col">
                             <h2>About Me</h2>
@@ -18,7 +18,7 @@ export default class About extends Component {
                                     <h2>Contact Details</h2>
                                     <p className="address">
                                         <span>Zhaoyang Lin</span><br />
-                                        <span>132 Demont ave E apt#335<br />
+                                        <span>
                                             Little Canada, MN 55117 US
                   </span><br />
                                         <span>(651)-703-7361</span><br />
@@ -27,7 +27,7 @@ export default class About extends Component {
                                 </div>
                                 <div className="columns download">
                                     <p>
-                                        <a href="https://www.slideshare.net/slideshow/embed_code/key/4c4xINaaEoIWWE" className="button"><i className="fa fa-download" />Download Resume</a>
+                                        <a href="https://www.slideshare.net/slideshow/embed_code/key/fwDbzrvLC36nkF" className="button"><i className="fa fa-download" />Download Resume</a>
                                     </p>
                                 </div>
                             </div>

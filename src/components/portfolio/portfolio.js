@@ -17,7 +17,7 @@ export default class Portfolio extends Component {
                                             <img alt src="images/portfolio/newModals/NBO.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>NBO</h5>
+                                                    <h5>New Baller Order</h5>
                                                     <p>Web-app</p>
                                                 </div>
                                             </div>
@@ -32,8 +32,8 @@ export default class Portfolio extends Component {
                                             <img alt src="images/portfolio/newModals/recent.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>Redux-Saga-Garden</h5>
-                                                    <p>Web Development</p>
+                                                    <h5>Redux Saga Garden</h5>
+                                                    <p>Web App</p>
                                                 </div>
                                             </div>
                                             <div className="link-icon"><i className="icon-plus" /></div>
@@ -48,7 +48,7 @@ export default class Portfolio extends Component {
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
                                                     <h5>Feedback app</h5>
-                                                    <p>Web Development</p>
+                                                    <p>Web App</p>
                                                 </div>
                                             </div>
                                             <div className="link-icon"><i className="icon-plus" /></div>
@@ -59,11 +59,26 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-04" title>
-                                            <img alt src="images/portfolio/newModals/calculator.png" />
+                                            <img alt src="images/portfolio/newModals/databaseCalcu.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>Calculator app</h5>
-                                                    <p>Web Development</p>
+                                                    <h5>Calculator app with Database</h5>
+                                                    <p>Web App</p>
+                                                </div>
+                                            </div>
+                                            <div className="link-icon"><i className="icon-plus" /></div>
+                                        </a>
+                                    </div>
+                                </div> {/* item end */}
+                                {/* item5 */}
+                                <div className="columns portfolio-item">
+                                    <div className="item-wrap">
+                                        <a href="#modal-05" title>
+                                            <img alt src="images/portfolio/newModals/realTimeCalcu.png" />
+                                            <div className="overlay">
+                                                <div className="portfolio-item-meta">
+                                                    <h5>Calculator app with Socket.io</h5>
+                                                    <p>Web App</p>
                                                 </div>
                                             </div>
                                             <div className="link-icon"><i className="icon-plus" /></div>
@@ -80,7 +95,7 @@ export default class Portfolio extends Component {
                             <div className="description-box">
                                 <h4>New Baller Order</h4>
                                 <p>This is a web app at the moment, in the future it will be a phone app. The main purpose of this app is to help basketball players to not be stranded or waste time while tyring to play a game of pick up basketball. Tech used: Google-map API, React, Redux, jQuery, Css, Axios, Redux-Saga.(currently being hosted on Heroku, so it takes 30sec to load up)</p>
-                                <span className="categories"><i className="fa fa-tag" />modile app</span>
+                                <span className="categories"><i className="fa fa-tag" />Web Development</span>
                             </div>
                             <div className="link-box">
                                 <a href="https://new-baller-order.herokuapp.com/#/googleMapPage">Details</a>
@@ -115,9 +130,9 @@ export default class Portfolio extends Component {
                         </div>{/* modal-03 End */}
 
                         <div id="modal-04" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/newModals/calculator.png" alt />
+                            <img className="scale-with-grid" src="images/portfolio/newModals/databaseCalcu.png" alt />
                             <div className="description-box">
-                                <h4>Calculator app</h4>
+                                <h4>Calculator app with database</h4>
                                 <p>This Calculator App is build in React. Also it has a database that is build with postgreSQL.(currently being hosted on Heroku, so it takes 30sec to load up) </p>
                                 <span className="categories"><i className="fa fa-tag" />Web Development</span>
                             </div>
@@ -125,7 +140,20 @@ export default class Portfolio extends Component {
                                 <a href="https://calculator-sz.herokuapp.com/">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
-                        </div>{/* modal-03 End */}
+                        </div>{/* modal-04 End */}
+
+                        <div id="modal-05" className="popup-modal mfp-hide">
+                            <img className="scale-with-grid" src="images/portfolio/newModals/realTimeCalcu.png" alt />
+                            <div className="description-box">
+                                <h4>Calculator app with Real-time updates</h4>
+                                <p>This Calculator App is build in React. It has Real-time multi-browser updates by using socket.io (currently being hosted on Heroku, so it takes 30sec to load up) </p>
+                                <span className="categories"><i className="fa fa-tag" />Web Development</span>
+                            </div>
+                            <div className="link-box">
+                                <a href="https://real-time-calculator.herokuapp.com/">Details</a>
+                                <a className="popup-modal-dismiss">Close</a>
+                            </div>
+                        </div>{/* modal-05 End */}
 
                     </div> {/* row End */}
                 </section>
