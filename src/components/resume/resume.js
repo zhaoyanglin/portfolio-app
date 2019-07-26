@@ -16,7 +16,7 @@ export default class Resume extends Component {
                                     <h3>Prime Digital Academy</h3>
                                     <p className="info">Software Engineer Certification: Computer Science <span>•</span> <em className="date">2019</em></p>
                                     <p>
-                                        The 20 week intensive/immersive courses schedule helped me realized that I am extremely adaptable to any environment that I am put into. I was able to learn how to build a fully functional web-app/ web-site with ease. My understanding of computer science is on par with individuals who has a four year degree.
+                                        The 20 week intensive/immersive courses schedule helped me realized that I am extremely adaptable to any environment that I am put into. I was able to learn how to build a fully functional web-app/web-site with ease. My understanding of Front end development is on par with individuals who has a four year degree.
                                     </p>
                                 </div>
                             </div> {/* item end */}
