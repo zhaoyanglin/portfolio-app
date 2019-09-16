@@ -15,10 +15,10 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-01" title>
-                                            <img alt src="images/portfolio/newModals/NBO.png" />
+                                            <img alt src="images/portfolio/newModals/drinking.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>New Baller Order</h5>
+                                                    <h5>Twenty1+</h5>
                                                     <p>Web-app</p>
                                                 </div>
                                             </div>
@@ -31,7 +31,7 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-02" title>
-                                            <img alt src="images/portfolio/newModals/recent.png" />
+                                            <img alt src="images/portfolio/newModals/garden.png" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
                                                     <h5>Redux Saga Garden</h5>
@@ -80,14 +80,14 @@ export default class Portfolio extends Component {
                         {/* Modal Popup
 	      --------------------------------------------------------------- */}
                         <div id="modal-01" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/newModals/NBO.png" alt />
+                            <img className="scale-with-grid" src="images/portfolio/newModals/drinking2.png" alt />
                             <div className="description-box">
-                                <h4>New Baller Order</h4>
-                                <p>This is a web app at the moment, in the future it will be a phone app. The main purpose of this app is to help basketball players to not be stranded or waste time while tyring to play a game of pick up basketball. Tech used: Google-map API, React, Redux, jQuery, Css, Axios, Redux-Saga.(currently being hosted on Heroku, so it takes 30sec to load up)</p>
+                                <h4>Twenty1+</h4>
+                                <p>This is a Fun web game for groups of people to use at a party or gathering events. It is a Full-Stack web application that is build on React.js. It uses many Node modules such as express- session, react-redux, react-sage, etc... Please take a look and feel free to enjoy it with your friends. </p>
                                 <span className="categories"><i className="fa fa-tag" />Web Development</span>
                             </div>
                             <div className="link-box">
-                                <a href="https://new-baller-order.herokuapp.com/#/googleMapPage">Open App</a>
+                                <a href="https://have-fun-drinking.herokuapp.com/">Open App</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
                         </div>{/* modal-01 End */}
