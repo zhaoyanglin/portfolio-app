@@ -11,7 +11,7 @@ export default class About extends Component {
                         </div>
                         <div className="nine columns main-col">
                             <h2>About Me</h2>
-                            <p>Hello, my name is Zhaoyang but I go by Zee. I am a full stack software engineer who loves solving problems, learning new things, and making sure everything I've done is precise and well-executed. During my free time I love watching movies and playing basketball and video games. I also enjoys the outdoors, hiking, sightseeing, and traveling. I am friendly, open-minded, love talking to people, and listening is one of my strong suits. 
+                            <p>Hello, my name is Zhaoyang Lin but I go by Zee. I am a full stack software engineer who loves solving problems, learning new things, and making sure everything I've done is precise and well-executed. During my free time I love watching movies, playing basketball, and playing video games. I also enjoy the outdoors, hiking, sightseeing, and traveling. My strengths include being friendly, open-minded, and having a flexible work style that allows me to work both individually and as part of a team. 
                             </p>
                             <div className="row">
                                 <div className="columns contact-details">
@@ -27,7 +27,7 @@ export default class About extends Component {
                                 </div>
                                 <div className="columns download">
                                     <p>
-                                        <a href="https://drive.google.com/open?id=1Z_Z0IWfhTZPIea6v_4Hnxxav6LVCDuuv" className="button"><i className="fa fa-download" />Download Resume</a>
+                                        <a href="https://www.linkedin.com/in/zee-lin1993/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACqUNrsBqzHwf6b9S_KALAlOvFaCbobmWe8,1589950720865)/" className="button"><i className="fa fa-download" />Download Resume</a>
                                     </p>
                                 </div>
                             </div>

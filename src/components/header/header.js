@@ -19,14 +19,14 @@ export default class Header extends Component {
                     </nav> {/* end #nav-wrap */}
                     <div className="row banner">
                         <div className="banner-text">
-                            <h1 className="responsive-headline">Zhaoyang Lin.</h1>
+                            <h1 className="responsive-headline">Zee Lin.</h1>
                             <h3>I'm a Minnesota Twin cities based <span>Full-Stack Software Engineer</span>, who loves creating robust and
-                            seamless web and mobile applications.
+                            seamless web applications.
                             </h3>
                             <hr />
                             <ul className="social">
 
-                                <li><a href="https://www.linkedin.com/in/zhaoyang-lin"><i className="fa fa-linkedin" /></a></li>
+                                <li><a href="https://www.linkedin.com/in/zee-lin1993/"><i className="fa fa-linkedin" /></a></li>
 
                                 <li><a href="https://github.com/zhaoyanglin"><i className="fa fa-github" /></a></li>
                                 
