@@ -27,7 +27,7 @@ export default class About extends Component {
                                 </div>
                                 <div className="columns download">
                                     <p>
-                                        <a href="https://www.linkedin.com/in/zee-lin1993/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACqUNrsBqzHwf6b9S_KALAlOvFaCbobmWe8,1589950720865)/" className="button"><i className="fa fa-download" />Download Resume</a>
+                                        <a href="https://www.zlinportfolio.com/#Resume_pic" className="button"><i className="fa fa-download" />Download Resume</a>
                                     </p>
                                 </div>
                             </div>
