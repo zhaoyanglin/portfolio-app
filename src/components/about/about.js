@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link} from 'react-router-dom';
+
 export default class About extends Component {
     render() {
         return (
@@ -27,7 +29,8 @@ export default class About extends Component {
                                 </div>
                                 <div className="columns download">
                                     <p>
-                                        <a href="https://www.zlinportfolio.com/#Resume_pic" className="button"><i className="fa fa-download" />Download Resume</a>
+                                        <a className="button" href="images/resume_photo/z.pdf" download><i className="fa fa-download" />Download Resume</a>
+
                                     </p>
                                 </div>
                             </div>

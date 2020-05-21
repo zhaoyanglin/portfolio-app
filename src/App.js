@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route } from "react-router-dom";
 
 import Header from './components/header/header';
 import About from './components/about/about';
@@ -8,7 +7,6 @@ import Portfolio from './components/portfolio/portfolio';
 import Testimonials from './components/testimonials/testimonials';
 import ContactUs from './components/contactus/contactus';
 import Footer from './components/footer/footer';
-import Resume_pic from './components/resume_pic';
 
 class App extends Component {
   render() {
@@ -21,9 +19,6 @@ class App extends Component {
         <Testimonials />
         <ContactUs />
         <Footer />
-        <Router>
-        <Route exact path="/Resume_pic" component={Resume_pic} />
-        </Router>
       </div>
     );
   }

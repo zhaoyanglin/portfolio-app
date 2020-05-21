@@ -20,7 +20,7 @@ export default class Header extends Component {
                     <div className="row banner">
                         <div className="banner-text">
                             <h1 className="responsive-headline">Zee Lin.</h1>
-                            <h3>I'm a Minnesota Twin cities based <span>Full-Stack Software Engineer</span>, who loves creating robust and
+                            <h3>I'm a Minnesota Twin cities based <span>Software Engineer</span>, who loves creating robust and
                             seamless web applications.
                             </h3>
                             <hr />
